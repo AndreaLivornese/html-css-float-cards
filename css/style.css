@@ -57,10 +57,11 @@ section{
 /* section cards */
 
 .container{
-    
+  
 }
 
-.card{
+.container .card{
+    float:left;
 
     width: calc(100% / 3);
     
@@ -110,3 +111,8 @@ section{
 
 /* fine main */
 
+
+
+.prova{
+    padding:0 16px;
+}
