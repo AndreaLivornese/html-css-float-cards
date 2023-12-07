@@ -5,6 +5,8 @@
     padding: 0;
 
     box-sizing: border-box;
+
+    border:1px red solid;
 }
 
 /* body */
@@ -39,6 +41,21 @@ body p{
     font-size: 16px;
 }
 
+section{
+    margin-bottom:50px;
+}
+
+/* section cards */
+
+.container{
+    
+}
+
+.card{
+    width: calc(100% / 3);
+}
+
+/* fine section cards */
 
 /* fine main */
 
