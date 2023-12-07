@@ -56,19 +56,29 @@ section{
 
 /* section cards */
 
-.card{
-    float:left;
+section > div{
+    float: left;
 
     width: calc(100% / 3);
+
+    padding: 10px 30px;
+
+
+}
+
+.card{
+    /* float:left; */
+
+    
     
     background-color: #0f0e17;
 
     box-shadow: 1px 1px 20px black;
 }
 
+/* da fixare immagini */
 
 .card img{
-    width: 120px;
     height: 120px;
 
     float:left;
