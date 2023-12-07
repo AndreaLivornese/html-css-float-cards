@@ -9,6 +9,14 @@
     border:1px red solid;
 }
 
+.clearfix::after{
+    content:'';
+
+    display: table;
+
+    clear:both;
+}
+
 /* body */
 body{
     width: 70%;
@@ -52,7 +60,43 @@ section{
 }
 
 .card{
+
     width: calc(100% / 3);
+    
+    background-color: #0f0e17;
+}
+
+.card img{
+    width: 120px;
+    height: 120px;
+
+    float:left;
+
+    vertical-align: middle;
+
+}
+
+.card ul{
+    padding: 20px 20px 20px 140px;
+   
+    list-style-type: none;
+}
+
+.name-surname{
+    color:white;
+    font-weight: 700;
+    font-size: 20px;;
+}
+
+.work{
+    font-size: 14px;
+    color:white;
+
+}
+
+.email{
+    color: #49afdb;
+    font-size:12px;
 }
 
 /* fine section cards */
