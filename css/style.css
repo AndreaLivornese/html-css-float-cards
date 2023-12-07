@@ -77,8 +77,8 @@ section{
 }
 
 .card ul{
-    padding-left: 140px;
-    padding-top: 20px;
+    margin-inline-start: 140px;
+    margin-top: 20px;
    
     list-style-type: none;
 }
