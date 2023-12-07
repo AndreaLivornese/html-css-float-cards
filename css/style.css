@@ -64,7 +64,7 @@ section > div{
 
     width: calc(100% / 3);
 
-    padding: 30px 10px;
+    padding: 30px 20px;
 
 
 }
@@ -76,7 +76,7 @@ section > div{
     
     background-color: #0f0e17;
 
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 10px black;
 }
 
 div div.card::after{
