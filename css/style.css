@@ -61,19 +61,27 @@ section > div{
 
     width: calc(100% / 3);
 
-    padding: 10px 30px;
+    padding: 30px 10px;
 
 
 }
 
 .card{
-    /* float:left; */
+    /* float:left;
 
-    
+    width: calc(100% / 3); */
     
     background-color: #0f0e17;
 
     box-shadow: 1px 1px 20px black;
+}
+
+div div.card::after{
+    content:'';
+
+    display: table;
+
+    clear: both;
 }
 
 /* da fixare immagini */
