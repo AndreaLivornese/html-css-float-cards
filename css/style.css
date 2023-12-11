@@ -97,6 +97,8 @@ div div.card::after{
 
     float:left;
 
+    margin-right:20px;
+
     vertical-align: middle;
 
 }
@@ -104,7 +106,7 @@ div div.card::after{
 .card ul{
     padding-top:20px;
     
-    margin-inline-start:  140px;
+    /* margin-inline-start:  140px; */
     
     list-style-type: none;
 
